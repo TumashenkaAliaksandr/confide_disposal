@@ -25,47 +25,47 @@ This files table contents are outlined below>>>>>
 Every Pages Style Area
 ======================================================*/
 /* Home Page One Style */
-@import url(../../assets/css/pages-css/navbar.css);
-@import url(../../assets/css/pages-css/hero-slider.css);
-@import url(../../assets/css/pages-css/features.css);
-@import url(../../assets/css/pages-css/about.css);
-@import url(../../assets/css/pages-css/skills.css);
-@import url(../../assets/css/pages-css/services.css);
-@import url(../../assets/css/pages-css/offer.css);
-@import url(../../assets/css/pages-css/project.css);
-@import url(../../assets/css/pages-css/get-quat-free.css);
-@import url(../../assets/css/pages-css/partner.css);
-@import url(../../assets/css/pages-css/team.css);
-@import url(../../assets/css/pages-css/testimonials.css);
-@import url(../../assets/css/pages-css/blog.css);
-@import url(../../assets/css/pages-css/newsletters.css);
-@import url(../../assets/css/pages-css/footer.css);
-@import url(../../assets/css/pages-css/copy-right.css);
+@import url(../../webapp/css/pages-css/navbar.css);
+@import url(../../webapp/css/pages-css/hero-slider.css);
+@import url(../../webapp/css/pages-css/features.css);
+@import url(../../webapp/css/pages-css/about.css);
+@import url(../../webapp/css/pages-css/skills.css);
+@import url(../../webapp/css/pages-css/services.css);
+@import url(../../webapp/css/pages-css/offer.css);
+@import url(../../webapp/css/pages-css/project.css);
+@import url(../../webapp/css/pages-css/get-quat-free.css);
+@import url(../../webapp/css/pages-css/partner.css);
+@import url(../../webapp/css/pages-css/team.css);
+@import url(../../webapp/css/pages-css/testimonials.css);
+@import url(../../webapp/css/pages-css/blog.css);
+@import url(../../webapp/css/pages-css/newsletters.css);
+@import url(../../webapp/css/pages-css/footer.css);
+@import url(../../webapp/css/pages-css/copy-right.css);
 /* Home Two Pages Style */
-@import url(../../assets/css/pages-css/banner.css);
-@import url(../../assets/css/pages-css/why-choose-us.css);
-@import url(../../assets/css/pages-css/pricing.css);
-@import url(../../assets/css/pages-css/product.css);
+@import url(../../webapp/css/pages-css/banner.css);
+@import url(../../webapp/css/pages-css/why-choose-us.css);
+@import url(../../webapp/css/pages-css/pricing.css);
+@import url(../../webapp/css/pages-css/product.css);
 /* Home Three Pages Style */
-@import url(../../assets/css/pages-css/top-header.css);
-@import url(../../assets/css/pages-css/faq.css);
+@import url(../../webapp/css/pages-css/top-header.css);
+@import url(../../webapp/css/pages-css/faq.css);
 /* Inner Pages Style */
-@import url(../../assets/css/pages-css/page-title.css);
-@import url(../../assets/css/pages-css/my-account.css);
-@import url(../../assets/css/pages-css/main-default-content.css);
-@import url(../../assets/css/pages-css/error.css);
-@import url(../../assets/css/pages-css/coming-soon.css);
-@import url(../../assets/css/pages-css/sidebar-widget.css);
-@import url(../../assets/css/pages-css/blog-details.css);
-@import url(../../assets/css/pages-css/project-details.css);
-@import url(../../assets/css/pages-css/product-details.css);
-@import url(../../assets/css/pages-css/cart.css);
-@import url(../../assets/css/pages-css/checkout.css);
-@import url(../../assets/css/pages-css/online-book.css);
-@import url(../../assets/css/pages-css/services-details.css);
-@import url(../../assets/css/pages-css/contact.css);
-@import url(../../assets/css/pages-css/search-page.css);
-@import url(../../assets/css/pages-css/product-view-one.css);
+@import url(../../webapp/css/pages-css/page-title.css);
+@import url(../../webapp/css/pages-css/my-account.css);
+@import url(../../webapp/css/pages-css/main-default-content.css);
+@import url(../../webapp/css/pages-css/error.css);
+@import url(../../webapp/css/pages-css/coming-soon.css);
+@import url(../../webapp/css/pages-css/sidebar-widget.css);
+@import url(../../webapp/css/pages-css/blog-details.css);
+@import url(../../webapp/css/pages-css/project-details.css);
+@import url(../../webapp/css/pages-css/product-details.css);
+@import url(../../webapp/css/pages-css/cart.css);
+@import url(../../webapp/css/pages-css/checkout.css);
+@import url(../../webapp/css/pages-css/online-book.css);
+@import url(../../webapp/css/pages-css/services-details.css);
+@import url(../../webapp/css/pages-css/contact.css);
+@import url(../../webapp/css/pages-css/search-page.css);
+@import url(../../webapp/css/pages-css/product-view-one.css);
 /*
 Default Style
 ============================*/
