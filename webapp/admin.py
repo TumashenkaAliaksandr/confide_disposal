@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import *
 
-# Register your models here.
+
+class DisposalAdmin(admin.ModelAdmin):
+    list_display = ('name', 'description', 'price', 'image', 'is_main')
+
+admin.site.register(Disposal, DisposalAdmin)
