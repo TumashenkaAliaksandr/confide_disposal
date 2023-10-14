@@ -8,4 +8,5 @@ app_name = 'webapp'
 urlpatterns = [
     path('', index, name='home'),
     path('disposal/', Disposal, name='disposal'),
+    path('slider/', Slider, name='slider'),
     ]
