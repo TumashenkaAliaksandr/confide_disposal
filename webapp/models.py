@@ -6,7 +6,7 @@ class Disposal(models.Model):
     name = models.CharField(max_length=100, verbose_name='Title')
     description = models.TextField(verbose_name='Description')
     price = models.DecimalField(max_digits=10, decimal_places=0, verbose_name='Price')
-    image = models.ImageField(upload_to='disposal/', verbose_name='Photo')
+    image = models.ImageField(upload_to='disposal_photo/', verbose_name='Photo')
     is_main = models.BooleanField(default=False)
 
     def __str__(self):
@@ -21,7 +21,7 @@ class Slider(models.Model):
     """Slider model"""
     name = models.CharField(max_length=100, verbose_name='Title')
     description = models.TextField(verbose_name='Description')
-    image = models.ImageField(upload_to='slider/', verbose_name='Photo')
+    image = models.ImageField(upload_to='slider', verbose_name='Photo')
     is_main = models.BooleanField(default=False)
 
     def __str__(self):

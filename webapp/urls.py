@@ -1,4 +1,6 @@
 from django.urls import path
+from django.conf import settings
+from django.conf.urls.static import static
 from webapp.views import *
 
 
@@ -8,5 +10,8 @@ app_name = 'webapp'
 urlpatterns = [
     path('', index, name='home'),
     path('disposal/', Disposal, name='disposal'),
-    path('slider/', Slider, name='slider'),
+    path('slider/', slider, name='slider'),
     ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

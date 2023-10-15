@@ -55,7 +55,7 @@
 				<div class="container">
 					<div class="mobile-responsive-menu">
 						<div class="logo">
-							<a href="index.html">
+							<a href="{% url 'webapp:home' %}">
 								<img src="{% static 'webapp/images/logo_confide.png' %}" alt="logo">
 							</a>
 						</div>
@@ -66,29 +66,14 @@
 			<div class="desktop-nav">
 				<div class="container">
 					<nav class="navbar navbar-expand-md navbar-light">
-						<a class="navbar-brand" href="index.html">
+						<a class="navbar-brand" href="{% url 'webapp:home' %}">
 							<img src="{% static 'webapp/images/logo_confide.png' %}" alt="logo">
 						</a>
 
 						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 							<ul class="navbar-nav m-auto">
 								<li class="nav-item">
-									<a href="#" class="nav-link active">
-										Home
-										<i class="ri-arrow-down-s-line"></i>
-									</a>
-
-									<ul class="dropdown-menu">
-										<li class="nav-item">
-											<a href="index.html" class="nav-link active">Home One</a>
-										</li>
-										<li class="nav-item">
-											<a href="index-2.html" class="nav-link">Home Two</a>
-										</li>
-										<li class="nav-item">
-											<a href="index-3.html" class="nav-link">Home Three</a>
-										</li>
-									</ul>
+									<a href="#" class="nav-link active">Home</a>
 								</li>
 
 								<li class="nav-item">

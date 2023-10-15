@@ -20,10 +20,8 @@ def slider(request):
     """Slider, index constr"""
 
     slide = Slider.objects.all()
-    main_slide = Disposal.objects.filter(is_main=True).first()
 
     context = {
         'slide': slide,
-        'main_slide': main_slide,
     }
-    return render(request, 'webapp/index.html', context=context)
+    return render(request, 'slider/slider_main.html', context=context)
