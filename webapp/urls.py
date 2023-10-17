@@ -11,6 +11,7 @@ urlpatterns = [
     path('', index, name='home'),
     path('disposal/', Disposal, name='disposal'),
     path('slider/', slider, name='slider'),
+    path('contacts/', contacts, name='contacts'),
     ]
 
 if settings.DEBUG:

@@ -25,3 +25,8 @@ def slider(request):
         'slide': slide,
     }
     return render(request, 'slider/slider_main.html', context=context)
+
+
+def contacts(request):
+    """Contacts constr"""
+    return render(request, 'webapp/contact.html')
