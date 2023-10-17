@@ -34,3 +34,8 @@ def contacts(request):
 def about(request):
     """About constr"""
     return render(request, 'webapp/about-us.html')
+
+
+def shop(request):
+    """About constr"""
+    return render(request, 'webapp/products.html')
