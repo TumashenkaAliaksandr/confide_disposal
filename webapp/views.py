@@ -30,3 +30,7 @@ def slider(request):
 def contacts(request):
     """Contacts constr"""
     return render(request, 'webapp/contact.html')
+
+def about(request):
+    """About constr"""
+    return render(request, 'webapp/about-us.html')
