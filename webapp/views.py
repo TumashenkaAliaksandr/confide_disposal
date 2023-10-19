@@ -8,23 +8,25 @@ def index(request):
 
     desposal = Disposal.objects.all()
     main_desposal = Disposal.objects.filter(is_main=True).first()
+    slide = Slider.objects.all()
 
     context = {
         'desposal': desposal,
         'main_desposal': main_desposal,
+        'slide': slide,
     }
     return render(request, 'webapp/index.html', context=context)
 
 
-def slider(request):
-    """Slider, index constr"""
-
-    slide = Slider.objects.all()
-
-    context = {
-        'slide': slide,
-    }
-    return render(request, 'slider/slider_main.html', context=context)
+# def slider(request):
+#     """Slider, index constr"""
+#
+#     slide = Slider.objects.all()
+#
+#     context = {
+#         'slide': slide,
+#     }
+#     return render(request, 'webapp/index.html', context=context)
 
 
 def contacts(request):

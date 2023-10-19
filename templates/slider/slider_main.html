@@ -19,13 +19,13 @@
                                     </a>
                                 </div>
                             </div>
-                            {% for main_slider in slide %}
                             <div class="col-lg-6 pr-0">
                                 <div class="hero-slider-img">
+                                    {% for main_slider in slide %}
                                     <img src="{{ main_slider.image.url }}" alt="Image">
+                                    {% endfor %}
                                 </div>
                             </div>
-                            {% endfor %}
                         </div>
                     </div>
                 </div>
